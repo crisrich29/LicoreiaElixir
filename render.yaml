@@ -3,7 +3,8 @@ services:
     name: licoreria-elixir
     env: static
     branch: main
-    buildCommand: npm install && npm run build
+    nodeVersion: 20
+    buildCommand: npm ci && npm run build
     staticPublishPath: dist
     root: .
     routes:
