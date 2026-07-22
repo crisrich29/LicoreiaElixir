@@ -1,0 +1,8 @@
+services:
+  - type: static_site
+    name: licoreria-elixir
+    env: node
+    branch: main
+    buildCommand: npm install && npm run build
+    publishPath: dist
+    root: .
