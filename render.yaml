@@ -1,6 +1,6 @@
 services:
   - type: static_site
-    name: licoreria-elixir
+    name: licoreriaelixir
     env: static
     branch: main
     nodeVersion: 20
