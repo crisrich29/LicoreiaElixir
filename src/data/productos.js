@@ -1,4 +1,24 @@
 // src/data/productos.js
+import johnieWalkerBlack from '../assets/imagenes/johnie_walker_black.jpg';
+import johnnieWalkerRed from '../assets/imagenes/johnnie-walker-red.jpeg';
+import johnnieWalkerBlue from '../assets/imagenes/johnnie-walker-blue.jpg';
+import chivasRegal12 from '../assets/imagenes/chivas-regal-12.jpg';
+import ballantinesFinest from '../assets/imagenes/ballantines-finest.jpg';
+import jackDaniels from '../assets/imagenes/jack_daniels.jpg';
+import oldParr12 from '../assets/imagenes/old_parr_12.jpg';
+import jaegermeister from '../assets/imagenes/Jägermeister.jpg';
+import absolutVodka from '../assets/imagenes/absolut_vodka.jpg';
+import smirnoffVodka from '../assets/imagenes/smirnoff_vodka.jpg';
+import bacardiCartaBlanca from '../assets/imagenes/bacardi_carta_blanca.jpg';
+import havanaClub7Anos from '../assets/imagenes/havana_club_7_años.jpg';
+import ronCartavioBlack from '../assets/imagenes/ron_cartavio_black.jpg';
+import ronZacapa23 from '../assets/imagenes/ron_zacapa_23.jpg';
+import joseCuervoEspecial from '../assets/imagenes/jose_cuervo_especial.jpg';
+import tequila1800Silver from '../assets/imagenes/1800_tequila_silver.jpeg';
+import patronSilver from '../assets/imagenes/patron_silver.jpg';
+import baileysOriginal from '../assets/imagenes/baileys _original.jpg';
+import jbRare from '../assets/imagenes/J&B_rare.jpg';
+import passportScotch from '../assets/imagenes/passport_scotch.jpg';
 
 // Base de datos local simulada con 20 productos de licorería premium
 export const productos = [
@@ -8,7 +28,7 @@ export const productos = [
     precio: 320.00,
     categoria: "Whisky",
     stock: 15,
-    imagen: "/src/assets/imagenes/johnie_walker_black.jpg",
+    imagen: johnieWalkerBlack,
     descripcion: "Un blended Scotch whisky de 12 años de edad, con profundidad y complejidad inigualables.",
     destacado: true
   },
@@ -18,7 +38,7 @@ export const productos = [
     precio: 180.00,
     categoria: "Whisky",
     stock: 25,
-    imagen: "/src/assets/imagenes/johnnie-walker-red.jpeg",
+    imagen: johnnieWalkerRed,
     descripcion: "El whisky escocés más vendido del mundo, con un carácter vibrante y atrevido.",
     destacado: false
   },
@@ -28,7 +48,7 @@ export const productos = [
     precio: 1200.00,
     categoria: "Whisky",
     stock: 5,
-    imagen: "/src/assets/imagenes/johnnie-walker-blue.jpg",
+    imagen: johnnieWalkerBlue,
     descripcion: "Nuestra creación más excepcional, compuesta por los whiskies más raros de nuestras reservas.",
     destacado: true
   },
@@ -38,7 +58,7 @@ export const productos = [
     precio: 250.00,
     categoria: "Whisky",
     stock: 20,
-    imagen: "/src/assets/imagenes/chivas-regal-12.jpg",
+    imagen: chivasRegal12,
     descripcion: "Un blended whisky escocés con sabores ricos y suaves de miel, vainilla y manzana madura.",
     destacado: false
   },
@@ -48,7 +68,7 @@ export const productos = [
     precio: 160.00,
     categoria: "Whisky",
     stock: 30,
-    imagen: "/src/assets/imagenes/ballantines-finest.jpg",
+    imagen: ballantinesFinest,
     descripcion: "Un blended Scotch whisky suave y equilibrado con toques de chocolate con leche y manzana roja.",
     destacado: false
   },
@@ -58,7 +78,7 @@ export const productos = [
     precio: 220.00,
     categoria: "Whisky",
     stock: 35,
-    imagen: "/src/assets/imagenes/jack_daniels.jpg",
+    imagen: jackDaniels,
     descripcion: "El Tennessee whiskey con sabor característico, filtrado gota a gota a través de carbón de arce.",
     destacado: true
   },
@@ -68,7 +88,7 @@ export const productos = [
     precio: 240.00,
     categoria: "Whisky",
     stock: 18,
-    imagen: "/src/assets/imagenes/old_parr_12.jpg",
+    imagen: oldParr12,
     descripcion: "Un blended Scotch whisky de 12 años, reconocido por su sabor suave, redondo y pleno.",
     destacado: false
   },
@@ -78,7 +98,7 @@ export const productos = [
     precio: 150.00,
     categoria: "Licores",
     stock: 40,
-    imagen: "/src/assets/imagenes/Jägermeister.jpg",
+    imagen: jaegermeister,
     descripcion: "Un licor de hierbas alemán con 56 botánicos, ideal para tomar muy frío.",
     destacado: true
   },
@@ -88,7 +108,7 @@ export const productos = [
     precio: 130.00,
     categoria: "Vodka",
     stock: 50,
-    imagen: "/src/assets/imagenes/absolut_vodka.jpg",
+    imagen: absolutVodka,
     descripcion: "Vodka sueco de grano de invierno, puro y suave con un toque de vainilla.",
     destacado: false
   },
@@ -98,7 +118,7 @@ export const productos = [
     precio: 95.00,
     categoria: "Vodka",
     stock: 60,
-    imagen: "/src/assets/imagenes/smirnoff_vodka.jpg",
+    imagen: smirnoffVodka,
     descripcion: "El vodka más vendido del mundo, triple destilado y filtrado 10 veces.",
     destacado: false
   },
@@ -108,7 +128,7 @@ export const productos = [
     precio: 110.00,
     categoria: "Ron",
     stock: 45,
-    imagen: "/src/assets/imagenes/bacardi_carta_blanca.jpg",
+    imagen: bacardiCartaBlanca,
     descripcion: "Ron blanco premium con notas de almendra y frutas tropicales.",
     destacado: false
   },
@@ -118,7 +138,7 @@ export const productos = [
     precio: 230.00,
     categoria: "Ron",
     stock: 12,
-    imagen: "/src/assets/imagenes/havana_club_7_años.jpg",
+    imagen: havanaClub7Anos,
     descripcion: "Ron oscuro cubano con sabores a cacao, vainilla y caramelo.",
     destacado: true
   },
@@ -128,7 +148,7 @@ export const productos = [
     precio: 140.00,
     categoria: "Ron",
     stock: 22,
-    imagen: "/src/assets/imagenes/ron_cartavio_black.jpg",
+    imagen: ronCartavioBlack,
     descripcion: "Ron oscuro peruano con cuerpo y carácter, ideal para cócteles o con hielo.",
     destacado: false
   },
@@ -138,7 +158,7 @@ export const productos = [
     precio: 450.00,
     categoria: "Ron",
     stock: 8,
-    imagen: "/src/assets/imagenes/ron_zacapa_23.jpg",
+    imagen: ronZacapa23,
     descripcion: "Ron premium guatemalteco envejecido en altura, complejo y dulce.",
     destacado: true
   },
@@ -148,7 +168,7 @@ export const productos = [
     precio: 140.00,
     categoria: "Tequila",
     stock: 30,
-    imagen: "/src/assets/imagenes/jose_cuervo_especial.jpg",
+    imagen: joseCuervoEspecial,
     descripcion: "Tequila mixto dorado, suave y ligeramente dulce, perfecto para margaritas.",
     destacado: false
   },
@@ -158,7 +178,7 @@ export const productos = [
     precio: 210.00,
     categoria: "Tequila",
     stock: 15,
-    imagen: "/src/assets/imagenes/1800_tequila_silver.jpeg",
+    imagen: tequila1800Silver,
     descripcion: "Tequila 100% de agave azul, puro y sin barrica, con notas cítricas.",
     destacado: false
   },
@@ -168,7 +188,7 @@ export const productos = [
     precio: 580.00,
     categoria: "Tequila",
     stock: 10,
-    imagen: "/src/assets/imagenes/patron_silver.jpg",
+    imagen: patronSilver,
     descripcion: "Tequila ultra premium 100% agave, elaborado artesanalmente.",
     destacado: true
   },
@@ -178,7 +198,7 @@ export const productos = [
     precio: 120.00,
     categoria: "Licores",
     stock: 35,
-    imagen: "/src/assets/imagenes/baileys _original.jpg",
+    imagen: baileysOriginal,
     descripcion: "Crema irlandesa con whisky y chocolate, suave y deliciosa.",
     destacado: false
   },
@@ -188,7 +208,7 @@ export const productos = [
     precio: 170.00,
     categoria: "Whisky",
     stock: 20,
-    imagen: "/src/assets/imagenes/J&B_rare.jpg",
+    imagen: jbRare,
     descripcion: "Un blended Scotch whisky ligero y fresco, perfecto para mezclar.",
     destacado: false
   },
@@ -198,7 +218,7 @@ export const productos = [
     precio: 130.00,
     categoria: "Whisky",
     stock: 28,
-    imagen: "/src/assets/imagenes/passport_scotch.jpg",
+    imagen: passportScotch,
     descripcion: "Blended Scotch whisky con un sabor equilibrado y un toque ahumado ligero.",
     destacado: false
   }
